@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5269" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5269" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:10Z">
+      <class name="website_searcher.website_searcher_test">
+        <test-method status="PASS" signature="readInputFile()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="readInputFile" is-config="true" duration-ms="9" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readInputFile -->
+        <test-method status="PASS" signature="finding_search()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="finding_search" duration-ms="4797" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_search -->
+        <test-method status="PASS" signature="finding_search()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="finding_search" duration-ms="3601" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_search -->
+        <test-method status="PASS" signature="finding_search()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="finding_search" duration-ms="4249" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_search -->
+        <test-method status="PASS" signature="finding_search()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="finding_search" duration-ms="5232" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_search -->
+        <test-method status="PASS" signature="finding_search()[pri:0, instance:website_searcher.website_searcher_test@458c1321]" name="finding_search" duration-ms="3258" started-at="2018-07-15T03:01:05Z" finished-at="2018-07-15T03:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding_search -->
+      </class> <!-- website_searcher.website_searcher_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
