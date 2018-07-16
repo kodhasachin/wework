@@ -5,7 +5,7 @@
     <classes>
       <class name="website_searcher.website_searcher_test">
         <methods>
-          <include name="readInputFile"/>
+          <include name="readURLs"/>
           <include name="finding_search"/>
         </methods>
       </class> <!-- website_searcher.website_searcher_test -->
