@@ -1,19 +1,13 @@
 package website_searcher;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.EmptyStackException;
-import java.util.Scanner;
 import java.util.Stack;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.*;
 
@@ -37,30 +31,7 @@ public class website_searcher_test {
 			urls.push(url[1].replace('/', ' ').trim());
 		}
 		
-//		Scanner scanner = new Scanner(System.in);
-//        String inputFilePath;
-//        System.out.println("Please provide full input file path location: ");
-//        inputFilePath=scanner.nextLine();
-//        scanner.close();
-//		InputStream is = getClass().getResourceAsStream("/Users/skodha/sachin/personal/wework/test.txt");
-//		InputStreamReader isr = new InputStreamReader(is);
-//		String line;
-//		//BufferedReader reader = new BufferedReader(new FileReader("/Users/skodha/sachin/personal/wework/test.txt"));
-//		//BufferedReader reader = new BufferedReader(new FileReader("testfiles/test.txt"));
-//		BufferedReader reader = new BufferedReader(isr);
-//		System.out.println("Got the file");
-//		//BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
-//		reader.readLine();
-//		while((line=reader.readLine())!=null)
-//		{
-//			String[] tmp1 = line.split(",");
-//			String[] tmp2 = tmp1[1].split("\"");
-//			urls.push(tmp2[1]);
-//		}
-//		reader.close();
-		
-		//System.out.println("Stack is: "+urls.toString());
-		
+
 		 try {
 		     File file = new File("result.txt");
 	
@@ -78,10 +49,7 @@ public class website_searcher_test {
 	{
 		while(urls.isEmpty()==false)
 		{
-			
-			//System.setProperty("webdriver.chrome.driver","/Users/skodha/sachin/softwares/Selenium/chromedriver");
-//			System.setProperty("webdriver.chrome.driver","lib/chromedriver");
-//			WebDriver driver = new ChromeDriver();
+
 			HtmlUnitDriver driver = new HtmlUnitDriver();
 			BufferedWriter writer = new BufferedWriter(new FileWriter("result.txt", true));
 			writer.newLine();
